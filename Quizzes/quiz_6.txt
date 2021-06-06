@@ -1,0 +1,20 @@
+1. New-one-of - a -kind queries
+2.) data cleaning
+3.) data refresh
+4.)rollup
+5.) one fact table and many dimension tables
+6.)precomputing them and storing them
+7.) False
+8.) False
+9.)data mining 
+10.) True
+11.) Validation
+12.) hypertree
+13.) AND
+14.) nested loops
+15.) False
+16.) Each page contains only records of that table 
+17.) pipelining 
+18.) materialization
+19.) examining every tuple in the table
+20.) All of These

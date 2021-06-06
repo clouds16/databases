@@ -1,0 +1,12 @@
+ALTER TABLE UserAccount 
+ADD FOREIGN KEY (CharacterID) REFERENCES UserCharacter(PersonID);
+
+ALTER TABLE UserCharacter
+ADD FOREIGN KEY (AbilityID) REFERENCES Abilities,
+FOREIGN KEY (ItemID)  REFERENCES Items(ItemID) ;
+
+
+ALTER TABLE Enemies
+ADD FOREIGN KEY (ItemID) REFERENCES Items,
+FOREIGN KEY (AbilityID) REFERENCES Abilities(AbilityID) ;
+
